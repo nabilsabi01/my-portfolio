@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-gray-800 antialiased bg-gray-50;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-700;
+}
+
+/* Glass effect with better contrast */
+.glass {
+  @apply bg-white shadow-lg border border-gray-100;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800;
+}
+
+/* Enhanced card hover effect */
+.card-hover {
+  @apply transition-all duration-300 
+         bg-white border border-gray-100
+         hover:shadow-xl hover:-translate-y-1 
+         hover:border-blue-100;
+}
+
+/* Button styles with better contrast */
+.btn-primary {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-xl 
+         hover:bg-blue-700 transition-all duration-300 
+         shadow-md hover:shadow-lg hover:shadow-blue-200/50 
+         hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply bg-white text-blue-600 border-2 border-blue-600 
+         px-6 py-3 rounded-xl hover:bg-blue-50 
+         transition-all duration-300 shadow-sm 
+         hover:shadow-md hover:shadow-blue-100/50 
+         hover:-translate-y-0.5;
+}
+
+/* Section styles with subtle gradient */
+section {
+  @apply relative overflow-hidden;
+}
+
+section.section-alt {
+  @apply bg-gradient-to-br from-gray-50 to-blue-50;
+}
+
+/* Animation classes */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Updated skill badge with better contrast */
+.skill-badge {
+  @apply px-4 py-2 rounded-xl 
+         bg-blue-50 text-blue-700 
+         font-medium hover:bg-blue-100 
+         transition-colors cursor-default;
+}
+
+/* Timeline dot with solid color */
+.timeline-dot {
+  @apply absolute -left-3 w-6 h-6 
+         bg-blue-600 rounded-full 
+         flex items-center justify-center 
+         shadow-md;
+}
+
+/* Card decorative elements with reduced opacity */
+.card-decoration {
+  @apply absolute w-32 h-32 
+         bg-blue-200 rounded-full 
+         blur-3xl opacity-10;
+}
+
+/* Hero section background */
+.hero-gradient {
+  @apply bg-gradient-to-br from-gray-50 via-white to-blue-50;
+}
+
+/* Project card styles */
+.project-card {
+  @apply bg-white rounded-xl overflow-hidden 
+         shadow-md hover:shadow-xl 
+         transition-all duration-300 
+         border border-gray-100;
+}
+
+/* Tech tag styles */
+.tech-tag {
+  @apply px-3 py-1 rounded-full text-sm
+         bg-blue-50 text-blue-600
+         hover:bg-blue-100 transition-colors;
+}
