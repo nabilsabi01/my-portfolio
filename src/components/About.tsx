@@ -33,9 +33,7 @@ export default function About() {
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">À propos de moi</h2>
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-gray-600 leading-relaxed">
-          Développeur Full Stack passionné, spécialisé en Java/Angular, avec une formation solide en développement informatique et une expérience pratique dans des projets web innovants. Diplômé de l’OFPPT et récemment formé à l'École Numérique Ahmed AL HANSALI en partenariat avec Simplon, j’ai acquis des compétences approfondies en développement backend avec Spring Boot, frontend avec Angular, ainsi qu’en outils DevOps comme Docker et Jenkins.
-          
-          Actuellement, je suis en recherche active d’une opportunité de stage pré-embauche ou d’un poste en tant que développeur Full Stack, Backend ou Frontend. Mon objectif est de contribuer à des projets innovants tout en continuant à enrichir mes compétences dans un environnement stimulant et collaboratif.
+            Développeur Full Stack passionné par les nouvelles technologies, spécialisé en Java/Angular. Je maîtrise le backend avec Spring Boot, le frontend avec Angular, et des outils DevOps comme Docker. Actuellement en recherche d’un stage pré-embauche ou d’un poste en Full Stack, Backend ou Frontend, je souhaite contribuer à des projets innovants.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
