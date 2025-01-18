@@ -33,7 +33,7 @@ export default function About() {
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">À propos de moi</h2>
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-lg text-gray-600 leading-relaxed">
-            Développeur Full Stack passionné, spécialisé en Java/Angular, avec une formation solide en développement informatique. Diplômé de l'OFPPT et formé à l'École Numérique Ahmed AL HANSALI, je développe mes compétences en backend avec Spring Boot, frontend avec Angular, et outils DevOps comme Docker et Jenkins. Actuellement à la recherche d'un stage pré-embauche ou d'un poste en développement Full Stack, Backend ou Frontend, je souhaite contribuer à des projets innovants et continuer à me développer.          </p>
+Développeur Full Stack passionné, spécialisé en Java/Angular, avec une formation solide en développement informatique. Diplômé de l'OFPPT et formé à l'École Numérique Ahmed AL HANSALI, je maîtrise le développement backend avec Spring Boot, frontend avec Angular, ainsi que les outils DevOps comme Docker et Jenkins. En recherche active d'un Stage, Stage Pré-embauche ou d'un emploi en développement Full Stack, Backend ou Frontend, je souhaite apporter mon expertise à des projets innovants tout en poursuivant ma progression professionnelle.          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {softSkills.map((skill) => (
