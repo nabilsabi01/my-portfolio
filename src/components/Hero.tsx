@@ -70,7 +70,7 @@ export default function Hero() {
                 </p>
                 <div className="flex items-center justify-center lg:justify-start space-x-2 text-gray-600">
                   <Briefcase className="w-5 h-5 text-primary-600" />
-                  <span>Stage Pré-embauche / CDI</span>
+                  <span>Stage / Emploi</span>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Hero() {
                       Disponible Immédiatement
                     </p>
                     <p className="text-xs text-green-600">
-                      Stage Pré-embauche / CDI
+                      Stage / Emploi
                     </p>
                   </div>
                 </div>
