@@ -46,7 +46,7 @@ export default function Header() {
             </div>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/nabilsabi"
+                href="https://github.com/nabilsabi01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -96,7 +96,7 @@ export default function Header() {
               ))}
               <div className="flex items-center space-x-4 pt-4">
                 <a
-                  href="https://github.com/nabilsabi"
+                  href="https://github.com/nabilsabi01"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-600 transition-colors"
