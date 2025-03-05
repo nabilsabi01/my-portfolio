@@ -3,35 +3,6 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Développeur Web Full Stack',
-      company: 'École Numérique Ahmed AL HANSALI/Simplon',
-      location: 'Beni Mellal',
-      period: 'Juil. 2024 - Oct. 2024',
-      description: 'Plateforme de location immobilière',
-      achievements: [
-        'Développement du backend avec Spring Boot et JWT pour la gestion des utilisateurs',
-        'Conception d\'une interface utilisateur responsive avec Angular 17',
-        'Documentation de l\'API REST et mise en place du pipeline CI/CD',
-        'Technologies: Spring Boot, Angular, Docker, Jenkins',
-      ],
-      bgColor: 'bg-blue-50',
-      textColor: 'text-blue-600'
-    },
-    {
-      title: 'Développeur Web Full Stack',
-      company: 'École Numérique Ahmed AL HANSALI/Simplon',
-      location: 'Beni Mellal',
-      period: 'Avr. 2024 - Mai 2024',
-      description: 'Site web de gestion de cinéma',
-      achievements: [
-        'Conception UML et développement des fonctionnalités d\'authentification',
-        'Création d\'une interface utilisateur responsive avec Bootstrap',
-        'Technologies: JEE, Hibernate, MySQL, Bootstrap',
-      ],
-      bgColor: 'bg-green-50',
-      textColor: 'text-green-600'
-    },
-    {
       title: 'Développeur Logiciel',
       company: 'Société Oways Rental Car',
       location: 'Souk Sebt',
@@ -44,7 +15,7 @@ export default function Experience() {
       ],
       bgColor: 'bg-purple-50',
       textColor: 'text-purple-600'
-    },
+    }
   ];
 
   return (
